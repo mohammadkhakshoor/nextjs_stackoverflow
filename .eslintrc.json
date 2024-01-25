@@ -1,3 +1,7 @@
 {
-  "extends": "next/core-web-vitals"
+  "rules": {
+    "jsx-quotes": [2, "prefer-single"],
+    "quotes": [2, "single", { "avoidEscape": true }]
+  },
+  "extends": ["next/core-web-vitals", "standard", "plugin:tailwindcss/recommended", "prettier"]
 }
